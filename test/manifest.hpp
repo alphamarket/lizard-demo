@@ -4,7 +4,7 @@
 #include "lizard/lizard.hpp"
 
 // include test case files
-//#include "tests/template_tester.hpp"
+#include "tests/line_tester.hpp"
 
 void lizard_manifest() {
     /*
@@ -14,6 +14,7 @@ void lizard_manifest() {
      * example:
      *      lizard_register(test::template_tester);
      */
+     lizard_register(test::line_tester);
 }
 
 #endif	/* MANIFEST_HPP */

@@ -4,7 +4,7 @@ SET(CMAKE_CXX_FLAGS "-std=c++11")
 
 project(LIZARD_TESTER)
 
-file(GLOB_RECURSE iSOURCES)
+file(GLOB_RECURSE iSOURCES "../src/*.cpp")
 file(GLOB_RECURSE iHEADERS "lizard/*.hpp")
 
 set (iINCLUDE_DIRS "")
